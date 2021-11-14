@@ -2,7 +2,9 @@ let male = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame']
 let weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 let female = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
 
-
+document.getElementById('submitbtn').addEventListener("click", function() {
+    calculate();
+})
 
 function calculate() {
     // event.preventDefault()
