@@ -4,7 +4,9 @@ let female = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
 
 document.getElementById('submitbtn').addEventListener("click", function() {
     calculate();
+
 })
+
 
 function calculate() {
     // event.preventDefault()
