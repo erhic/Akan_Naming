@@ -17,7 +17,7 @@
 
 
     <section id="akan_naming">
-        <div class="container-lg">
+        <div class="container-lg bg-info">
             <div class="text-center">
                 <h2 class="h1 text-center text-secondary">Akan-Name Generator </h2>
                 <p class="p text-center text-info">This is a website that generates a name based on the day one is born and depending whether you are a female or male.</p>
@@ -27,17 +27,22 @@
                     <form>
                         <label for="date" class="form-=label">Enter your Date of Birth :</label>
                         <div class="mb-4 input group">
-                            <span class="input-group-text">
-                                <i class="bi bi-person-fill"></i>
-                            </span>
-                            <input type="date" class="form-control" id="email" placeholder="YYYY-MM-DD eg.2021-12-21">
+
+                            <input type="date" class="form-control" id="date" placeholder="YYYY-MM-DD eg.2021-12-21">
                         </div>
-                        <select class="form-select" aria-label="Default select example">
+                        <div>
+                            <label for="gender" class="form-=label">Gender :</label>
+                            <select class="form-select" aria-label="Default select example">
                             <option selected value="select your gender">Select your gender</option>
                             <option value="1">Male</option>
                             <option value="2">Female</option>
-                           
+                           <br>
                           </select>
+                        </div>
+
+                        <div class="mb-4 text-center"><br>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
 
                     </form>
                 </div>
