@@ -17,14 +17,15 @@ function calculate() {
     let daysNo = new Date(date).getDay()
 
 
+
     if (gender == '' || date == "") {
-        // alert("fill in your date birth and gender")
+        console.log("fill in your date birth and gender")
         resultToCalculate.innerHTML = ("fill in your date birth and gender")
     } else if (gender == 'female') {
-        // alert(`You were born on a ${weekDays[daysNo]} and your Akan name is ${female[daysNo]}`)
+        console.log(`You were born on a ${weekDays[daysNo]} and your Akan name is ${female[daysNo]}`)
         resultToCalculate.innerHTML = (`You were born on a ${weekDays[daysNo]} and your Akan name is ${female[daysNo]}`)
     } else if (gender == 'male') {
-        // alert(`You were born on a ${weekDays[daysNo]} and your Akan name is ${male[daysNo]}`)
+        console.log(`You were born on a ${weekDays[daysNo]} and your Akan name is ${male[daysNo]}`)
         resultToCalculate.innerHTML = (`You were born on a ${weekDays[daysNo]} and your Akan name is ${male[daysNo]}`)
     } else {
         console.log('You have not selected anything');
