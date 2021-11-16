@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap" rel="stylesheet">
     <!-- css link -->
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css">
     <title> Akan Name-generator</title>
 </head>
 
@@ -23,13 +23,14 @@
 
     <section id="akan_naming">
 
-        <nav class="navbar navbar-light bg-secondary">
+        <nav class="navbar navbar-light fixed-top bg-secondary ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./Assets/akanlog.png " alt="akan logo" width="65" height="42" class="d-inline-block align-text-top"> <strong>Akan Name-Generator</strong>
                 </a>
             </div>
         </nav>
+
         <h2 class="h1 text-center text-secondary pt-4 text-secondary"><strong>Akan-Name Generator</strong> </h2>
         <div class="container-lg bg-info mt-5">
             <div class="row">
@@ -37,15 +38,15 @@
                     <img src="./Assets/ghanaian.png" alt="">
                 </div>
                 <div class="col mt-5 " style="font-family: 'Poppins', sans-serif;line-height:1.5em">
-                    <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. A child’s name is determined by factors surrounding his or her birth. For example, the day of their birth determine which
+                    <p id="paragh">Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. A child’s name is determined by factors surrounding his or her birth. For example, the day of their birth determine which
                         name they get respective of their gender.</p>
                 </div>
             </div>
         </div>
         <div class="container-lg bg-info mt-5" class="akan">
             <div class="text-center">
-                <h2 class="h1 text-center text-secondary">Akan-Name Generator </h2>
-                <p class="p text-center text-secondary">This is a website that generates a name based on the day one is born and depending whether you are a female or male.</p>
+                <h2 class="h1 text-center text-secondary">Generate Your Name Here </h2>
+                <p class="p text-center text-secondary" id="paragh">This is a website that generates a name based on the day one is born and depending whether you are a female or male.</p>
             </div>
             <div class="row justify-content-center my-5">
 
@@ -71,7 +72,7 @@
                 </form>
 
 
-                <div class="col-lg-6 text-center mt-5 fw-bold fs-4 text-secondary" id="result">
+                <div class="col-lg-6 text-center mt-5 fw-bold fs-4 text-secondary" id="result" class="zoom-in">
 
                 </div>
 
