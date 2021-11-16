@@ -31,4 +31,7 @@ function calculate() {
         console.log('You have not selected anything');
         resultToCalculate.innerHTML = ('You have not selected anything');
     }
+    setTimeout(function() {
+        resultToCalculate.setAttribute("style", "display:none")
+    }, 5000);
 }
