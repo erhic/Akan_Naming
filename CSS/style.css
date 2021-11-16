@@ -10,6 +10,10 @@ html {
     font-size: 20px;
 }
 
+#topbar {
+    position: fixed;
+}
+
 .col-lg-6 {
     margin: 24px;
     width: 50%;
