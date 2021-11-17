@@ -14,7 +14,8 @@ function calculate() {
 
     let date = document.getElementById('date').value;
     let gender = document.getElementById('gender').value;
-    let daysNo = new Date(date).getDay()
+    let daysNo = new Date(date).getDay();
+    resultToCalculate.setAttribute("style", "display:block")
 
 
 
