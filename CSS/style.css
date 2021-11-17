@@ -33,3 +33,28 @@ html {
         transform: scale(1, 1);
     }
 }
+
+#gene-akan {
+    display: inline-block;
+}
+
+#gene-akan {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s forwards;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+.col-lg-6 {
+    display: inline-block;
+}
